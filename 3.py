@@ -1,5 +1,5 @@
 """
-(4 points) Implement a function called is_valid_parity. It accepts two strings called codeword
+(3 points) Implement a function called is_valid_parity. It accepts two strings called codeword
            and parity.
 
            The is_valid_parity function returns True if codeword is parity-encoded correctly. If it
@@ -25,7 +25,7 @@
            prepended to it) and a parity (EVEN or ODD) as parameters and return True if the
            codeword has been correctly parity-encoded, else False.
 
-(4 points) Prove your function works by testing with these unit tests, i.e., assert that:
+(3 points) Prove your function works by testing with these unit tests, i.e., assert that:
 
            is_valid_parity("101", "EVEN") returns True
            is_valid_parity("11", "EVEN") returns True
