@@ -3,16 +3,16 @@
 
            The backup function accepts a string, the name of a file. This function must create
            a duplicate file with the same content but if the name of the file includes an
-           extension, you must replace the extension with .bak.
+           extension, you must remove it.
 
            When it is done, the backup function must print a helpful confirmation message for the
            user, like this:
 
            backup("important_file.txt")
-           generated important_file.bak
+           generated important_file
 
            backup("this_file_has_no_extension")
-           generated this_file_has_no_extension.bak
+           generated this_file_has_no_extension
 
            Make sure your function works for empty, small, and very, very large files. Make sure
            your file doesn't leave out the final newline character, or add one if there wasn't one
